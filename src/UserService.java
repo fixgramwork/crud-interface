@@ -46,5 +46,6 @@ public class UserService implements CrudService<User> {
   @Override
   public List<User> listAll() {
     return new ArrayList<>(users);
+
   }
 }
